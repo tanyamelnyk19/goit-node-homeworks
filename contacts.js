@@ -1,4 +1,3 @@
-
 const fs = require('fs/promises')
 const path = require('path')
 const crypto = require('crypto')
@@ -13,7 +12,7 @@ const readContent = async () => {
 
 const listContacts = async () => {
     return await readContent()
-  }
+}
   
   const getContactById = async (contactId) => {
     const contacts = await readContent()
